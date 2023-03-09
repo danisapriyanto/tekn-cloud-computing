@@ -1,7 +1,9 @@
-#Latihan
+# Latihan
 <hr>
 
+
 ```php
+git clone
 $ git clone https://github.com/andikarifki/ujian-paradigma
 Cloning into 'ujian-paradigma'...
 remote: Enumerating objects: 3, done.
