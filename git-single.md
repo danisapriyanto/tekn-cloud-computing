@@ -97,4 +97,28 @@ Untracked files:
         latihan.md
 
 no changes added to commit (use "git add" and/or "git commit -a")
+
+PS G:\1. Kuliah_STIMK AKAKOM\Materi Kuliah\6. Semester Genap T.A. 2022-2023\6. PRAKTIKUM TEKNOLOGI CLOUD\tekn-cloud-computing\minggu-01> git push             
+fatal: The current branch edit-readme-1 has no upstream branch.  
+To push the current branch and set the remote as upstream, use   
+
+    git push --set-upstream origin edit-readme-1
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.       
+
+PS G:\1. Kuliah_STIMK AKAKOM\Materi Kuliah\6. Semester Genap T.A. 2022-2023\6. PRAKTIKUM TEKNOLOGI CLOUD\tekn-cloud-computing\minggu-01> git push --set-upstream origin edit-readme-1
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.    
+Delta compression using up to 4 threads
+Compressing objects: 100% (4/4), done. 
+Writing objects: 100% (4/4), 1.95 KiB | 249.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+remote: 
+remote: Create a pull request for 'edit-readme-1' on GitHub by visiting:
+remote:      https://github.com/danisapriyanto/tekn-cloud-computing/pull/new/edit-readme-1
+remote:
+To https://github.com/danisapriyanto/tekn-cloud-computing.git
+ * [new branch]      edit-readme-1 -> edit-readme-1
+branch 'edit-readme-1' set up to track 'origin/edit-readme-1'.
 ```
