@@ -18,7 +18,7 @@ Cacoo menampilkan antarmuka pengguna yang sederhana dan beragam template. Aplika
 
 1. yED Graph Editor
 
-![Gambar teks editor VS Code](https://static.macupdate.com/products/36897/l/yed-logo.png?v=1616135379)
+![Gambar teks editor VS Code][https://static.macupdate.com/products/36897/l/yed-logo.png?v=1616135379]
 
 aplikasi ini untuk membuat diagram-diagram yang biasa digunakan dalam perancangan sistem informasi seperti Flowchart,ER-D,DFD dan sebagainya Aplikasi ini tersedia untuk Windows,Linux dan juga MacOS.Selain itu aplikasi ini sangat mudah untuk pemula. Selain itu aplikasi ini juga menyediakan banyak sekali grafis serta kita dimudahkan untuk mewarnai pada setiap shape-shapenya.Diagram yang telah kita buat dapat diekspor ke format SWF,SVG,PDF,HTML,PNG dan sebagainya. (https://www.yworks.com/)
 
@@ -27,3 +27,5 @@ aplikasi ini untuk membuat diagram-diagram yang biasa digunakan dalam perancanga
 ![Gambar teks editor VS Code](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcP_3lr5CcYsBiuJoVpFQDZOJ8P8zjUOrRmw&usqp=CAU)
 
 Aplikasi ini memiliki banyak bentuk bawaan untuk menggambar berbagai jenis antarmuka pengguna mulai dari desktop ke platform seluler di antaranya fitur shape, elemen flowchart, bentuk desktop/web UI, bentuk Android dan iOS GUI. Pencil juga mendukung pembuatan diagram, mengekspor ke berbagai format output termasuk Inkscape SVG dan Adobe PDF, dokumen teks OpenOffice/LibreOffice, dan penautan antar halaman. Tak hanya itu, Pencil juga terintegrasi dengan OpenClipart.org agar memudahkan mencari Cliparts di Internet. (https://pencil.evolus.vn/)
+
+[def]: https://static.macupdate.com/products/36897/l/yed-logo.png?v=1616135379
