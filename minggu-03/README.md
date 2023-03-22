@@ -12,5 +12,5 @@ Cyclic adalah alternatif yang bagus untuk Heroku jika Anda mencari arsitektur cl
 
 1. Daftar akun terlebih dahulu
 2. Membuat App
-
+![Gambar teks editor VS Code](https://github.com/danisapriyanto/tekn-cloud-computing/blob/master/minggu-03/images/gambar1.JPG)
 
