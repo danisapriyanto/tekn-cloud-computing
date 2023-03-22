@@ -1,7 +1,7 @@
 ##  Danis Apriyanto - 205611034
 # minggu-03
 
-# Heroku Vs Siklik
+# Heroku Vs Cyclic
 Heroku adalah salah satu vendor PaaS (Platform as a Service) yang paling terkenal. Itu didirikan pada 2007 (dua tahun sebelum Node.js pertama kali dirilis). Baik Heroku dan Cyclic menawarkan serangkaian fitur dasar standar yang serupa.
 
 Heroku dibangun dengan konsep "Dynos". Ini adalah wadah ringan yang dihargai seperti server tetapi memiliki beberapa atribut runtime gaya tanpa server sesuai permintaan dengan peningkatan elastis. Sisi negatifnya adalah Anda masih membayar untuk menganggur.
