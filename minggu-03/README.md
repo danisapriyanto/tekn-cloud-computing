@@ -20,4 +20,8 @@ Cyclic adalah alternatif yang bagus untuk Heroku jika Anda mencari arsitektur cl
 
 3. Lalu app sudah bisa diakses 
 
-![Gambar03](https://github.com/danisapriyanto/tekn-cloud-computing/blob/master/minggu-03/images/gambar3.JPG)
+![Gambar03](https://github.com/danisapriyanto/tekn-cloud-computing/blob/master/minggu-03/images/gambar3.JPG
+
+4. Repo express-hello world
+
+![Gambar04](https://github.com/danisapriyanto/tekn-cloud-computing/blob/master/minggu-03/images/gambar4.JPG)
