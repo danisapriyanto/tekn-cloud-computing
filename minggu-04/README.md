@@ -2,4 +2,4 @@
 
 ## Latihan dan Tugas Minggu ke 4
 
-[Latihan Minggu Ke - 4](https://github.com/andikarifki/teknologi-cloud1/blob/master/MINGGU-4/tugas-latihan.md)
+[Latihan Minggu Ke - 4](https://github.com/danisapriyanto/tekn-cloud-computing/blob/master/minggu-04/tugas-latihan.md)
