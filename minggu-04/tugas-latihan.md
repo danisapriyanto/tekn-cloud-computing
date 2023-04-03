@@ -34,14 +34,13 @@ pilih Windows Hosts
 ![](img/img4.jpg)
 
 - Isian sebagai berikut: 
-Name : Danis
-Folder : C:\Users\HP\VirtualBox VMs 
-Type: Linux 
-Version: Ubuntu (64-bit), 
-pilih Create a virtual hard disk now, 
-OK
+- Name : Danis
+- Folder : C:\Users\HP\VirtualBox VMs 
+- Type: Linux 
+- Version: Ubuntu (64-bit), 
+- pilih Create a virtual hard disk now, OK
 
-![](img/img6.jpg)
+![](img/img6.JPG)
 
 - Pilih file location bebas, pilih yang VDI (Virtual Disk Image)
 
@@ -55,19 +54,19 @@ Lalu Klik Start untuk dan jalankan (Simbol Anak Panah Kekanan Warna Hijau)
 
 Setelah Start tampilan sebagai berikut,
 
-![](img/img8.jpg)
+![](img/img8.JPG)
 
 Pilih Ubuntu, Kemudian tampialn selanjutnya sebagai berikut:
 
-![](img/img9.jpg)
+![](img/img9.JPG)
 
 Kemudian Tampilan berganti sebagai berikut, pilih Bahasa English, Insyall Ubuntu
 
-![](img/img10.jpg)
+![](img/img10.JPG)
 
 Tampilan Ubuntu _Installation Complete_
 
-![](img/img11.jpg)
+![](img/img11.JPG)
 
 Sebagai informasi Bapak Dosen, mohon maaf sebelumnya saya sudah mencoba install beberapa kali Ubuntu/VM Machine di laptop dan ganti laptop juga, tetapi prosesnya hanya sampai disini, saat proses loading tidak pernah berhasil sampai halamam program VirtualBoxnya.
 
