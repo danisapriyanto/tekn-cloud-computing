@@ -17,7 +17,7 @@ pilih Windows Hosts
 3. Install Virtual Box
 [Bisa lihat disini](https://www.nesabamedia.com/cara-install-ubuntu-di-virtualbox/)
 
-4. Setelah selesai unduh file Virtual Box dengan kapasitas kurang lebih 2 GB, run file tersebut dan klik NEXT
+4. Setelah selesai unduh file Virtual Box dengan kapasitas kurang lebih 2 GB, run file tersebut dan klik `NEXT`
 
 ![](img/img1.jpg)
 
@@ -46,21 +46,21 @@ pilih Windows Hosts
 
 ![](img/img7.jpg)
 
-- Tampilan Selesai
+- Tampilan Selesai Setup _VirtualBox Manager_
 
 ![](img/img5.jpg)
 
-Lalu Klik Start untuk dan jalankan (Simbol Anak Panah Kekanan Warna Hijau)
+Lalu Klik Start untuk menjalankan VM (Simbol Anak Panah Kekanan Warna Hijau)
 
 Setelah Start tampilan sebagai berikut,
 
 ![](img/img8.JPG)
 
-Pilih Ubuntu, Kemudian tampialn selanjutnya sebagai berikut:
+Pilih Ubuntu, Kemudian tampilan selanjutnya sebagai berikut:
 
 ![](img/img9.JPG)
 
-Kemudian Tampilan berganti sebagai berikut, pilih Bahasa English, Insyall Ubuntu
+Kemudian Tampilan berganti sebagai berikut, pilih Bahasa English, Install Ubuntu
 
 ![](img/img10.JPG)
 
