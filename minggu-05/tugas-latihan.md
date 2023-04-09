@@ -43,7 +43,7 @@ Referensi: https://ofbiz.apache.org/ https://www.predictiveanalyticstoday.com/fr
 
 4. Proses aktifasi OFBiz `gradlew cleanAll loadAll`
 
-![](img/img8.jpg)
+![](img/img7.jpg)
 
 5. Untuk menjalankan OFBiz ketikan `gradlew ofbiz`
 
