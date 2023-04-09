@@ -15,6 +15,10 @@ Referensi: https://ofbiz.apache.org/ https://www.predictiveanalyticstoday.com/fr
 
 ![](img/img2.jpg)
 
+- folder file JDK
+
+![](img/img2a.jpg)
+
 3. Setting path _sesuai direktori yg diinstal java_
 
 - i. Klik menu start>pilih Edit the system environment variables
@@ -35,7 +39,7 @@ Referensi: https://ofbiz.apache.org/ https://www.predictiveanalyticstoday.com/fr
 
 - v. Isikan sesuai dengan diektori java yg ada file bin nya lalu copy alamat bin tersebut, kemudian pilih menu `OK`
 
-![](img/img7.jpg)
+![](img/img2a.jpg)
 
 4. Proses aktifasi OFBiz `gradlew cleanAll loadAll`
 
