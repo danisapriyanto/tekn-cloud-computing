@@ -1,105 +1,56 @@
-# IaaS (Infrastructure-as-a-Service)
+# Apache OFBiz
 
- Infrastructure-as-a-Service yang biasa disebut hanya sebagai “IaaS,” adalah bentuk komputasi awan yang memberikan komputasi dasar, jaringan, dan sumber daya penyimpanan kepada konsumen sesuai permintaan, melalui internet, dan dengan pembayaran sesuai permintaan. Anda-pergi dasar. IaaS memungkinkan pengguna akhir untuk menskalakan dan mengecilkan sumber daya sesuai kebutuhan, mengurangi kebutuhan pengeluaran modal di muka yang tinggi atau infrastruktur "milik sendiri" yang tidak perlu, terutama dalam kasus beban kerja yang "berduri". Berbeda dengan PaaS dan SaaS (bahkan model komputasi yang lebih baru seperti container dan tanpa server), IaaS menyediakan kontrol sumber daya tingkat terendah di cloud.
+Apache OFBiz adalah produk _open source_ yang dirancang khusus untuk otomatisasi proses perusahaan yang mencakup komponen kerangka kerja dan aplikasi bisnis untuk `ERP` (_Enterprise Resource Planning_), `CRM` (_Customer Relationship Management_), `E-Business` / `E-Commerce`, `SCM` (_Supply Chain Management_), `MRP` (_Manufacturing Resource Planning_), `MMS`/`EAM` (Maintenance Management System/Enterprise Asset Management). Proyek Apache OFBiz adalah bagian dari The Apache Software Foundation dan dilisensikan di bawah Apache License Version 2.0. Awalnya OFBiz berdiri untuk terbuka untuk bisnis _Open For Business_. Apache OFBiz menyediakan fondasi sistem dan titik awal untuk solusi perusahaan yang andal, aman, dan skalabel. Perusahaan dapat menggunakannya, menyesuaikannya atau menggunakannya sebagai kerangka untuk mengimplementasikan kebutuhan bisnis mereka. Dengan OFBiz, sebuah organisasi dapat segera dimulai tanpa biaya penyebaran dan pemeliharaan besar untuk sistem otomatisasi perusahaan tradisional. Seiring pertumbuhan bisnis, mereka dapat memperluas fungsi untuk memenuhi kebutuhan mereka yang lebih canggih. Apache OFBiz menawarkan banyak fungsi bisnis, termasuk: `e-commerce`, manajemen katalog yang efisien, promosi & manajemen harga, manajemen pesanan aman untuk penjualan & pembelian, manajemen pelanggan (bagian dari manajemen pihak umum), manajemen gudang total, mencakup bagian seperti pemindahan stok secara otomatis, pemilihan _batch_, dan pengemasan & pengiriman, akuntansi untuk berbagai tujuan seperti faktur, akun pembayaran & penagihan, dan aset tetap, manajemen manufaktur lengkap, manajemen usaha yang umum mencakup bidang utama seperti acara, tugas, proyek, dan permintaan serta pengelolaan konten aman yang mencakup area seperti konten produk, situs web, konten umum, blog, dan forum.
 
-IaaS muncul sebagai model komputasi populer di awal 2010-an, dan sejak saat itu, ia telah menjadi model abstraksi standar untuk berbagai jenis beban kerja. Namun, dengan munculnya teknologi baru, seperti wadah dan tanpa server, dan peningkatan terkait pola aplikasi layanan mikro, IaaS tetap menjadi dasar tetapi berada di bidang yang lebih ramai dari sebelumnya.
+Referensi: https://ofbiz.apache.org/ https://www.predictiveanalyticstoday.com/free-open-source-enterprise-resource-planning-erp-software/ https://blog.capterra.com/free-open-source-erp-software/. http://e-journal.stmikkomputama.ac.id/index.php/jtb/article/view/4
 
-Referensi: https://www.ibm.com/cloud/learn/iaas
+1. Clone file OFBiz terlebih dahulu
 
-1. Download virtualbox terlebih dahulu
-
-[Link Download Virtual Box](https://www.virtualbox.org/wiki/Downloads)
-pilih Windows Hosts
-
-2. Download Ubuntu
-[Link Download](https://ubuntu.com/download/desktop)
-
-3. Install Virtual Box
-[Bisa lihat disini](https://www.nesabamedia.com/cara-install-ubuntu-di-virtualbox/)
-
-4. Setelah selesai unduh file Virtual Box dengan kapasitas kurang lebih 2 GB, run file tersebut dan klik `NEXT`
+[Link Github OFBiz](https://github.com/apache/ofbiz-framework)
 
 ![](img/img1.jpg)
 
-5. Kemudian Proses Instalasi
+2. Download dan Install Java JDK
+[Link Download](https://www.nesabamedia.com/download-java-se-development-kit-jdk/)
 
 ![](img/img2.jpg)
 
-6. Setelah selesai instalansi VM, kemudian pilih menu NEW (simbol matahari warna biru)
+3. Setting path _sesuai direktori yg diinstal java_
+
+- i. Klik menu start>pilih Edit the system environment variables
 
 ![](img/img3.jpg)
 
-7. Create Virtual Machine
+- ii. Klik Advanced>pilih Environment Variables
 
 ![](img/img4.jpg)
 
-- Isian sebagai berikut: 
-- Name : Danis
-- Folder : C:\Users\HP\VirtualBox VMs 
-- Type: Linux 
-- Version: Ubuntu (64-bit), 
-- pilih Create a virtual hard disk now, OK
-
-![](img/img6.JPG)
-
-- Pilih file location bebas, pilih yang VDI (Virtual Disk Image)
-
-![](img/img7.jpg)
-
-- Tampilan Selesai Setup _VirtualBox Manager_
+- iii. Kemudian klik edit di bagian Systems Variables klik path>edit
 
 ![](img/img5.jpg)
 
-Lalu Klik Start untuk menjalankan VM (Simbol Anak Panah Kekanan Warna Hijau)
+- iv. Pilih menu `New`
 
-Setelah Start tampilan sebagai berikut,
+![](img/img6.jpg)
 
-![](img/img8.JPG)
+- v. Isikan sesuai dengan diektori java yg ada file bin nya lalu copy alamat bin tersebut, kemudian pilih menu `OK`
 
-Pilih Ubuntu, Kemudian tampilan selanjutnya sebagai berikut:
+![](img/img7.jpg)
 
-![](img/img9.JPG)
+4. Proses aktifasi OFBiz `gradlew cleanAll loadAll`
 
-Kemudian Tampilan berganti sebagai berikut, pilih Bahasa English, Install Ubuntu
+![](img/img8.jpg)
 
-![](img/img10.JPG)
+5. Untuk menjalankan OFBiz ketikan `gradlew ofbiz`
 
-Tampilan Ubuntu _Installation Complete_
+![](img/img9.jpg)
 
-![](img/img11.JPG)
+6. Masuk menu Apache OFBiz
 
-Sebagai informasi Bapak Dosen, mohon maaf sebelumnya saya sudah mencoba install beberapa kali Ubuntu/VM Machine di laptop dan ganti laptop juga, tetapi prosesnya hanya sampai disini, saat proses loading tidak pernah berhasil sampai halamam program VirtualBoxnya.
+![](img/img10.jpg)
 
-Berikut langkah-langkah install git di OS Linux Ubuntu yang saya pahami, tetapi mohon maaf karena belum bisa praktikan langsung karena proses instalasinya saya tidak berhasil sampai menu program.
+- Username : danis
+- Password : ofbiz
 
-Terima kasih.
-
-5. Untuk menginstall git di OS LINUX UBUNTU
-- bukalah terminal distart->pilih terminal
-- ketik ~ $ `sudo apt git install`
-
-6. Selanjutnya install devstack 
-~$ `sudo useradd -s /bin/bash -d /opt/stack -m stack`
-~$ `echo "stack ALL=(ALL) NOPASSWD: ALL" | sudo tee /etc/
-sudoers.d/stack`
-~$ `sudo -u stack -i`
-
-7. Clone file devstack dengan github
-
-~ $ `sudo apt install git`
-
-Membuat `local.config`
-
-Buat file `local.conf` dengan empat kata sandi yang telah ditetapkan di root devstack git repo.
-
- [local|localrc]
-- ADMIN_PASSWORD=secret
-- DATABASE_PASSWORD=~$ADMIN_PASSWORD
-- RABBIT_PASSWORD=~$ADMIN_PASSWORD
-- SERVICE_PASSWORD=~$ADMIN_PASSWORD
-
-8. Setting `IP host` terlebih dahulu di `stack.rc` jika gagal dengan notif
-
-9. Setting `di stack.sh` pada line : 234
-
-10. Selanjutnya ketik ~$ `./stack.sh`
+7. Halaman dashboard OFBiz
+![](img/img11.jpg)
