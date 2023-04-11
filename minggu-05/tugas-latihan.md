@@ -45,16 +45,21 @@ Referensi: https://ofbiz.apache.org/ https://www.predictiveanalyticstoday.com/fr
 
 ![](img/img7.jpg)
 
+_Mohon maaf bapak dosen, saya sudah mencoba instalasi/download ulang Apache OFBiz beberapan kali tetapi belum bisa jalan, ketika dirun/dijalankan tampilannya seperti gambar diatas_
+
+Jika Apache OFBiz bisa dijalankan, proses selanjutnya adalah sebagai berikut:
+
 5. Untuk menjalankan OFBiz ketikan `gradlew ofbiz`
 
-![](img/img9.jpg)
+![](img/img8.jpg)
 
 6. Masuk menu Apache OFBiz
 
-![](img/img10.jpg)
+![](img/img9.jpg)
 
-- Username : danis
+- Username : admin
 - Password : ofbiz
 
-7. Halaman dashboard OFBiz
-![](img/img11.jpg)
+7. Tampil Halaman Utama _Dashboard_ OFBiz
+
+![](img/img10.jpg)
