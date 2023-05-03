@@ -1,3 +1,6 @@
+
+## 205611034 Danis Apriyanto
+
 # Data as a service
 
 Dalam komputasi, data sebagai layanan, atau DaaS, adalah istilah yang digunakan untuk menggambarkan perangkat lunak berbasis cloud yang digunakan untuk bekerja dengan data, seperti mengelola data di gudang data atau menganalisis data dengan kecerdasan bisnis. Ini diaktifkan oleh perangkat lunak sebagai layanan (SaaS).[1] Seperti semua teknologi "sebagai layanan" (aaS), DaaS dibangun di atas konsep bahwa produk datanya dapat diberikan kepada pengguna sesuai permintaan, [2] terlepas dari pemisahan geografis atau organisasi antara penyedia dan konsumen. Arsitektur berorientasi layanan (SOA) dan meluasnya penggunaan API telah menjadikan platform tempat data berada sebagai tidak relevan.[3]
@@ -8,13 +11,33 @@ Data sebagai layanan sebagai model bisnis adalah konsep ketika dua atau lebih or
 
 * [Download GO](https://go.dev/doc/install)
 
-* Download MySQL
-https://dev.mysql.com/downloads/installer/
+* [Download MySQL](https://dev.mysql.com/downloads/installer/)
 
-* Download MonggoDB
-https://www.mongodb.com/try/download/community
+* [Download MonggoDB](https://www.mongodb.com/try/download/community)
 
 
-## 1. Implementasi Program Go Untuk Membaca Data Pada Mysql
+## Implementasi Program Go Untuk Membaca Data Pada Mysql
+
+Golang connection to PHPMySQL
+
+1. Buat direktori `mkdir project-pertama`
+
+2. Masuk ke direktori `cd project-pertama`
+
+3. Untuk membuat go.mod `go mod init project-pertama`
+
+4. Cek file terlebih dahulu `ls`
+
+5. Setting path variabel `dir`
 
 ![](img/img1.jpg)
+
+Install gopath
+
+Koneksi mysql
+
+1. Instalasi driver terlebih dahulu ketik `go get github.com/go-sql-driver/mysql`
+2. Buat database dan tabel di MySQL
+3. Buat tabel dan isikan data
+
+![](img/img2.jpg)
