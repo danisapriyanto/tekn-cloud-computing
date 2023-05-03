@@ -6,8 +6,7 @@ Data sebagai layanan sebagai model bisnis adalah konsep ketika dua atau lebih or
 
 # Sofware Yang Diperlukan
 
-* Download GO
-https://go.dev/doc/install
+* [Download GO](https://go.dev/doc/install)
 
 * Download MySQL
 https://dev.mysql.com/downloads/installer/
