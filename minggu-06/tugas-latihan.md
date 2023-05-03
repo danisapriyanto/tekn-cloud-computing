@@ -29,37 +29,48 @@ Golang connection to PHPMySQL
 4. Cek file terlebih dahulu `ls`
 
 5. Setting path variabel `dir`
+
 ![](img/img1.jpg)
 
 Install gopath
 
 ## Koneksi mysql
+
 ![](img/img2.jpg)
 
 Untuk kode koneksi ke mysql sebagai berikut,
+
 ![](img/img10.jpg)
 
 
 1. Instalasi driver terlebih dahulu ketik `go get github.com/go-sql-driver/mysql`
+
 ![](img/img7.jpg)
 
 2. Buat database dan tabel di MySQL
+
 ![](img/img4.jpg)
 
 3. Buat tabel
+
 ![](img/img5.jpg)
 
 4. isikan data
+
 ![](img/img6.jpg)
 
 5. Untuk menjalankan golang ketikan `go run main.go`
+
 ![](img/img8.jpg)
 
 6. Masuk ke mongodb, 
+
 ![](img/img11.jpg)
 
 instalasi ketikan `go get go.mongodb.org/mongo-driver/mongo`
+
 ![](img/img9.jpg)
 
 7. Membuat project
+
 ![](img/img12.jpg)
