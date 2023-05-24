@@ -42,7 +42,7 @@ Faktor portabilitas juga menjadi kelebihan yang dimiliki oleh _container_. Para 
 
 ![](img/img1.jpg)
 
-halaman depan aplikasi docker
+- halaman depan aplikasi docker
 
 ![](img/img2.jpg)
 
@@ -52,9 +52,9 @@ halaman depan aplikasi docker
 
 Langkah Selanjutnya 
 
-a. ketikan `docker --version`
-b. ketikan `docker run hello-world`
-c. ketikan `docker container ls --all`
+- ketikan `docker --version`
+- ketikan `docker run hello-world`
+- ketikan `docker container ls --all`
 
 7. Kemudian langkah selanjutnya melakukan clonning repositori dari Git untuk mengambil bulletin-board pada docker.
 
