@@ -40,11 +40,11 @@ Faktor portabilitas juga menjadi kelebihan yang dimiliki oleh _container_. Para 
 
 5. Proses Running aplikasi docker
 
-![](img/img1.jpg)
+![](img/img.JPG)
 
 - halaman depan aplikasi docker
 
-![](img/img16.jpg)
+![](img/img16.JPG)
 
 6. Kemudian masuk ke `Command Prompt`
 
