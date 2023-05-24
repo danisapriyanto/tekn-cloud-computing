@@ -37,3 +37,60 @@ Faktor portabilitas juga menjadi kelebihan yang dimiliki oleh _container_. Para 
 4. Proses install Docker, tunggu sampai proses selesai, setelah selesai klik>Finish
 
 ![](img/img10.jpg)
+
+5. Proses Running aplikasi docker
+
+![](img/img1.jpg)
+
+halaman depan aplikasi docker
+
+![](img/img2.jpg)
+
+6. Kemudian masuk ke `Command Prompt`
+
+![](img/img3.jpg)
+
+Langkah Selanjutnya 
+
+a. ketikan `docker --version`
+b. ketikan `docker run hello-world`
+c. ketikan `docker container ls --all`
+
+7. Kemudian langkah selanjutnya melakukan clonning repositori dari Git untuk mengambil bulletin-board pada docker.
+
+ketikan
+
+https://github.com/dockersamples/node-bulletin-board
+
+![](img/img5.jpg)
+
+8. Kemudian masuk pada direktori `node-bulletin-board-app.`
+ketikan
+
+`cd node-bulletin-board/bulletin-board-app`
+
+![](img/img6.jpg)
+
+7. Login into Docker>Login/Aktifasi akun baru menggunakan email
+
+![](img/img11.jpg)
+
+8. Mengambil image
+
+![](img/img4.jpg)
+
+* Search ketik "hello-world"
+
+![](img/img12.jpg)
+
+9. Selanjutnya di github ketik perintah `docker pull hello-world`
+
+![](img/img13.jpg)
+
+Kemudian cek repository "docker images"
+
+![](img/img14.jpg)
+
+10. Menjalankan docker run dengan ketikan `docker run hello-world`
+
+![](img/img15.jpg)
