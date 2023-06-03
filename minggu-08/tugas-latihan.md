@@ -26,13 +26,13 @@ Perintah yang digunakan yakni :
 
 ![](img/img6.jpg)
 
-    Pada _script_ diatas akan berguna untuk mengeksekusi beberapa perintah yang berada pada beberapa file sebelumnya.
+    Pada script diatas akan berguna untuk mengeksekusi beberapa perintah yang berada pada beberapa file sebelumnya.
 
 5. Dan kemudian untuk selanjutnya membuat file `yml`, dengan nama `docker-compose`. File ini akan berguna sebagai wadah untuk merujuk pada port 5000 yang nantinya dapat diakses. Seperti pada gambar dibawah ini:
 
 ![](img/img7.jpg)
 
-    _Script_ diatas merupakan _script_ yang akan menjadi layanan dengan menggunakan _port_ _default_ untuk `server web Flask 5000`.
+    Script diatas merupakan _script_ yang akan menjadi layanan dengan menggunakan port default untuk server web Flask 5000.
 
 6. Selanjutnya melakukan _running_ untuk project/direktori yang dibuat tadi dengan menggunakan `docker compose`, yang perintahnya yaitu `docker-compose up`, seperti pada gambar dibawah ini:
 
@@ -40,7 +40,7 @@ Perintah yang digunakan yakni :
 
 ![](img/img9.jpg)
 
-    Ketika perintah `docker-compose up` dijalankan maka otomatis sever akan _runnig_, dimana setiap proses _running_ dilakukan maka akan otomatis merujuk pada _image docker_ dan kemudian merequest ke server redis.
+    Ketika perintah docker-compose up dijalankan maka otomatis sever akan runnig, dimana setiap proses running dilakukan maka akan otomatis merujuk pada image docker dan kemudian merequest ke server redis.
 
 Sehingga hasilnya, apabila di open pada browser dengan mengakses _server host_ yakni 192.168.99.100:5000. Host ini fungsinya sama seperti penggunaan pada _docker dekstop_ yakni localhost:5000, karena disini saya menggunakan docker tollbox, maka host yang digunakan seperti berikut.
 
@@ -54,7 +54,25 @@ Sehingga hasilnya, apabila di open pada browser dengan mengakses _server host_ y
 
 ![](img/img12.jpg)
 
-    Dimana dari gambar diatas _repo/image_ yang digunakan sekarang yaitu *python* dan *redis*.
+    Dimana dari gambar diatas repo/image yang digunakan sekarang yaitu python dan redis.
 
-9. 
+9. Kemudian melakukan perubahan pada `file .yml` dengan menambahkan _script_ didalamnya seperti pada gambar berikut:
+
+![](img/img13.jpg)
+
+    Dimana perubahan dengan menambahkan dua variabel yaitu volumes dan environtment. 
+
+10. Selanjutnya melakukan _running_ ulang dengan perintah `docker-compose up`, dan disitu terlihat perubahan, seperti gambar berikut:
+
+![](img/img14.jpg)
+
+    Dimana hasil update pada file yml akan ditampilkan ketika proses runnig ulang ke host seperti pada gambar diatas tersebut. 
+
+11. Kemudian melakukan _update_ pada file `app.py` dengan merubah pesan seperti pada gambar berikut:
+
+![](img/img15.jpg)
+
+12. Dan melakukan eksperimen pada beberapa perintah `docker` yang ada. Dimana beberapa perintah ini akan melihat _container_ yang sedang _running_ pada _background_, melakukan _stop running container_, melihat _running_ pada _server web_ dan _volume container_, seperti gambar berikut:
+
+![](img/img16.jpg)
 
