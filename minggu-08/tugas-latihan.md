@@ -78,5 +78,11 @@ Sehingga hasilnya, apabila di open pada browser dengan mengakses _server host_ y
 
 Dokumen _Script_
 
+### File app.py
+
 [File app.py](https://github.com/danisapriyanto/tekn-cloud-computing/blob/master/minggu-08/app.py)
+
+### Dockefile
+
+[Dockefile](https://github.com/danisapriyanto/tekn-cloud-computing/blob/master/minggu-08/Dockerfile.txt)
 
