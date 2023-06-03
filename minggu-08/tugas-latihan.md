@@ -76,7 +76,7 @@ Sehingga hasilnya, apabila di open pada browser dengan mengakses _server host_ y
 
 ![](img/img16.jpg)
 
-Dokumen _Script_
+## Dokumen _Script_
 
 ### File app.py
 
@@ -85,4 +85,12 @@ Dokumen _Script_
 ### Dockefile
 
 [Dockefile](https://github.com/danisapriyanto/tekn-cloud-computing/blob/master/minggu-08/Dockerfile.txt)
+
+### docker-compose.yml
+
+[docker-compose.yml](https://github.com/danisapriyanto/tekn-cloud-computing/blob/master/minggu-08/docker-compose.yml)
+
+### requirements.txt
+
+[requirements.txt](https://github.com/danisapriyanto/tekn-cloud-computing/blob/master/minggu-08/requirements.txt)
 
