@@ -147,11 +147,4 @@ login tersebut menggunakan ID dan Password. Apabila sudah melakukan login maka s
 
 ![](img/img32.jpg)
 
-
-29. Apabila proses push image docker berhasil, Selanjutnya akses url https://hub.docker.com/r/175610055/. Untuk melihat dan memastikan hasil image docker yang push tadi seperti pada gambar berikut:
-
-![](img/img33.jpg)
-
-Gambar tersebut menampilkan 2 image docker berhasi di push dan ditampilkan pada container docker.
-
 Terima kasih
