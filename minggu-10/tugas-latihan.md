@@ -33,7 +33,7 @@
 
 setelah itu menjalankan perintah untuk menampilakan _brctl_ apakah sudah terdapat _bridges_ yang berjalan pada _dcoker host_ seperti gambar berikut: `brctl show`
 
-    ![](img/img8.jpg)
+    ![](img/img.jpg)
 
 7. Menjalankan perintah untuk melihat detail _bridges docker_ yang sedang berjalan ketika ditampilkan pada perintah sebelumnya seperti gambar berikut: `ip a`
 
@@ -51,12 +51,32 @@ setelah itu menjalankan perintah untuk menampilakan _brctl_ apakah sudah terdapa
 
     ![](img/img12.jpg)
 
-hasil diatas _bridges docker0_ sudah terhubung. Bagian ini menghubungkan _bridges docker0_ ke _container_ yang baru saja dibuat.
+    hasil diatas _bridges docker0_ sudah terhubung. Bagian ini menghubungkan _bridges docker0_ ke _container_ yang baru saja dibuat.
 
 11. Memeriksa ulang jaringan _bridges_ dengan perintah baru, seperti pada gambar berikut: `docker network inspect bridge`
 
     ![](img/img13.jpg)
 
     ![](img/img14.jpg)
+
+12. Dari hasil sebelumnya dimana ip address yang didapatkan pada _bridges_ yaitu 172.17.0.2.Selanjutnya akan mencoba ping ke ip address tersebut untuk memastikan apakah sedang berjalan atau tidak, seperti pada gambar berikut: `ping -c5 172.17.0.2`
+
+    ![](img/img15.jpg)
+
+13. Selanjutnya melihat _ID bridges_ untuk nantinya dapat menghubungkan dengan URL lainnya, seperti pada gambar berikut: `docker exec -it 079ed538c950 /bin/bash`
+
+    ![](img/img16.jpg)
+
+    Dari gambar diatas sekaligus melakukan penginstalan program ping. Apabila sudah melakukan instalasi program ping makan selanjutnya kita mencoba ping ke url www.github.com. Untuk perintah dan hasilnya seperti pada gambar berikut: `ping -c5 www.github.com.`
+
+    ![](img/img17.jpg)
+
+    ![](img/img18.jpg)
+
+    Selanjutnya keluar dari _running container_ tersebut, dengan menggunakan perintah seperti pada gambar berikut:
+
+    ![](img/img19.jpg)
+
+    Hasil pada gambar diatas lansung melakukan pemberhentian untuk kontainer yang sedang berjalan dengan ID kita, untuk perintahnya seperti gambar diatas tersebut.
 
 Terima kasih
