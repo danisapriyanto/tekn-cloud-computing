@@ -97,4 +97,68 @@
 
     ![](img/gambar-24.jpg)
 
+17. Selanjutnya inisialisasi swarm baru. Untuk perintah dan hasilnya seperti pada gambar berikut: `docker swarm init --advertise-addr $(hostname -i)`
+
+    ![](img/gambar-25.jpg)
+
+18. Menjalankan perintah untuk melihat node swarm yang sedang berjalan, seperti pada gambar berikut: `docker node ls`
+
+    ![](img/gambar-26.jpg)
+
+19. Membuat overlay jaringan dengan nama overnet. Untuk perintah dan hasilnya seperti pada gambar berikut: `docker network create -d overlay pvernet`
+
+    ![](img/gambar-27.jpg)
+
+20. Menjalankan perintah untuk memastikan bahwa jaringan berhasil dibuat. Untuk perintah dan hasilnya seperti pada gambar berikut: `docker network ls`
+
+    ![](img/gambar-28.jpg)
+
+    Gambar diatas menunjukan overnet jaringan berhasil dibuat.
+
+21. Melihat kembali daftar jaringan pada docker host. Untuk perintah dan hasilnya seperti pada gambar berikut: `docker network ls`
+
+    ![](img/gambar-29.jpg)
+
+22. Melihat detail informasi dari jaringan overnet. Untuk perintah dan hasilnya seperti gambar berikut: `docker network inspect overnet`
+
+    ![](img/gambar-30.jpg)
+
+23. Membuat layanan baru dengan nama myservice pada jaringan overnet dengan dua bagian. Untuk perintah dan hasilnya seperti pada gambar berikut: `docker service create --name myservice \`
+
+    ![](img/gambar-31.jpg)
+
+24. Memastikan bahwa layanan yang dibuat dengan dua bagian sudah aktif. Untuk perintah dan hasilnya seperti pada gambar berikut: `docker service ls`
+
+    ![](img/gambar-32.jpg)
+
+25. Memastikan bahwa dua node sedang berjalan. Untuk perintah dan hasilnya seperti pada gambar berikut: `docker service ps myservice`
+
+    ![](img/gambar-33.jpg)
+
+26. Melakukan verifikasi jaringan dua bagian node yang sedang berjalan pada jaringan overnet. Untuk perintah dan hasilnya seperti pada gambar berikut: `docker network ls`
+
+    ![](img/gambar-34.jpg)
+
+27. Detail jaringan overnet dan mendapatkan alamat ip dari running dua node yang ada. Untuk perintah dan hasilnya seperti pada gambar berikut: `docker network inspect overnet`
+
+    ![](img/gambar-35.jpg)
+
+    ![](img/gambar-36.jpg)
+
+28. Konfigurasi jaringan _myservice_. Untuk perintah dan hasilnya seperti pada gambar berikut: `docker service inspect my service`
+
+    ![](img/gambar-37.jpg)
+
+29. Melakukan remove layanan myservice. Untuk perintah dan hasilnya seperti pada gambar berikut: `docker service rm myservice`
+
+    ![](img/gambar-38.jpg)
+
+30. Melihat kembali _list_ jaringan container yang ada. Untuk perintah dan hasilnya seperti pada gambar berikut: `docker ps`
+
+    ![](img/gambar-39.jpg)
+
+31. Untuk menghapus node 1 dan 2 yang berjalan pada swarm. Untuk perintah dan hasilnya seperti pada gambar berikut:
+
+    ![](img/gambar-40.jpg)
+
 Terima kasih
