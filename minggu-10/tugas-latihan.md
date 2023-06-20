@@ -35,7 +35,6 @@ setelah itu menjalankan perintah untuk menampilakan _brctl_ apakah sudah terdapa
 
     ![](img/img8.jpg)
 
-
 7. Menjalankan perintah untuk melihat detail _bridges docker_ yang sedang berjalan ketika ditampilkan pada perintah sebelumnya seperti gambar berikut: `ip a`
 
     ![](img/img9.jpg)
@@ -53,5 +52,11 @@ setelah itu menjalankan perintah untuk menampilakan _brctl_ apakah sudah terdapa
     ![](img/img12.jpg)
 
 hasil diatas _bridges docker0_ sudah terhubung. Bagian ini menghubungkan _bridges docker0_ ke _container_ yang baru saja dibuat.
+
+11. Memeriksa ulang jaringan _bridges_ dengan perintah baru, seperti pada gambar berikut: `docker network inspect bridge`
+
+    ![](img/img13.jpg)
+
+    ![](img/img14.jpg)
 
 Terima kasih
