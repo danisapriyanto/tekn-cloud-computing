@@ -1,14 +1,8 @@
 
-## Praktikum Teknologi Cloud Computing - Minggu 12 (Docker Orchestration Hands-on Lab)
+## Praktikum Teknologi Cloud Computing - Minggu 11 (Application Containerization & Microservice Orchestration)
 
-# 205611034 Danis Apriyanto
+## 205611034 Danis Apriyanto
 
-1. Membuat _container_ baru yang dijalankan pada node 1. Dengan menggunakan perintah seperti gambar berikut:
+1. Melakukan _clonning_ repo dari git dan mengakses direktori, serta memeriksa _branch_ dari repo tersebut.
 
-    ![](img/gambar-01.jpg)
-
-    ![](img/gambar-02.jpg)
-
-dimana dari perintah diatas berguna untuk membuat _container_ baru. _Container_ ini akan tetap berjalan pada _background image docker_ saat _sleep_.
-
-Terima kasih
+![](img/gambar-01.jpg)
