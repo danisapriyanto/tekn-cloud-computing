@@ -105,4 +105,91 @@
 
     ![](img/gambar-26.jpg)
 
+24. Membuat mode terpisah untuk _container_.
+
+    ![](img/gambar-27.jpg)
+
+    ![](img/gambar-28.jpg)
+
+25. Memeriksa daftar _container_ yang sedang berjalan serta memastikan bahwa kedua _container_ tersebut dapat berjalan dan mengkases layanan API.
+
+    ![](img/gambar-29.jpg)
+
+    Sehingga ketika megkasesnya pada URL, maka hasilnya seperti pada gambar berikut:
+
+    ![](img/gambar-30.jpg)
+
+26. Kemudian modifikasi file www/index.php mengganti semua kemunculan Link _Extractor_ dengan Super Link _Extractor_. Kemudian mengembalikan perubahan, dan menonaktifkan _container_ berikut.
+
+    ![](img/gambar-31.jpg)
+
+27. Kemudian memeriksa _branch step5_ dan melihat isi file didalamnya.
+
+    ![](img/gambar-32.jpg)
+
+28. Memeriksa file Dockerfile yang baru di dalam direktori `cat www/Dockerfile`
+
+    ![](img/gambar-33.jpg)
+
+29. Selanjutnya, melihat isi file `api/main.py` dengan menggunakan server redis.
+
+    ![](img/gambar-34.jpg)
+
+30. Melihat hasil perubahan pada file `docker-compose.yml.`
+
+    ![](img/gambar-35.jpg)
+
+31. Selanjutnya melakukan eksekusi container ini, untuk bisa di buka pada browser.
+
+    ![](img/gambar-36.jpg)
+
+    ![](img/gambar-37.jpg)
+
+    Sehingga hasilnya ketika ditampilkan pada browser, seperti pada gambar berikut:
+
+    ![](img/gambar-38.jpg)
+
+32. Selanjutnya memeriksa apakah layanan redis dipakai atau tidak.
+
+    ![](img/gambar-39.jpg)
+
+33. Memeriksa ketika folder _www_ tidak tersedia pada _container_ yang sedang berjalan. kemudian melakukan verifikasi bahwa perubahan yang dibuat secara lokal tidak berada dalam layanan yang berjalan dengan memuat ulang halaman web dan kemudian mengembalikan perubahan. Dan menonaktifkan cointainer berikut.
+
+    ![](img/gambar-40.jpg)    
+
+34. Selanjutnya memeriksa _branch step6_ dan melihat isi file didalamnya.
+
+    ![](img/gambar-41.jpg)
+
+35. Selanjutnya melihat isi file `linkextractor.rb` ini merupakan file _ruby_ untuk mengelola _dependency_. Kemudian juga melihat isi file `Dockerfile`.
+
+    ![](img/gambar-42.jpg)
+
+    ![](img/gambar-43.jpg)
+
+36. Kemudian mengecek perubahan pada file `docker-compose.yml.`
+
+    ![](img/gambar-44.jpg)
+
+37. Kemudian selanjutnya mengeksekusi container ini.
+
+    ![](img/gambar-45.jpg)
+
+    ![](img/gambar-46.jpg)
+
+    Selanjutnya harus dapat mengakses API (menggunakan nomor port yang diperbarui):
+
+    ![](img/gambar-47.jpg)
+
+    Hasil yang ditampilkan pada halaman browser seperti gambar berikut:
+
+    ![](img/gambar-48.jpg)
+
+38. Kemudian _shut down container_ ini tetapi _log_ akan tetap ada, walaupun _container_ akan hilang.
+
+    ![](img/gambar-49.jpg)
+
+
+Terima kasih
+
 
