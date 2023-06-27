@@ -33,7 +33,7 @@
 
     ![](img/gambar-08.jpg)
 
-Gambar berikut merupakan _output_ apabila kita mengakses alamat URL tersebut.
+    Gambar berikut merupakan _output_ apabila kita mengakses alamat URL tersebut.
 
     ![](img/gambar-09.jpg)
 
@@ -85,7 +85,7 @@ Gambar berikut merupakan _output_ apabila kita mengakses alamat URL tersebut.
 
 19. Menjalankan _container_ dalam mode (-d flag) sehingga terminal dapat tersedia untuk perintah yang lain saat _container_ masih berjalan. 
 
-Perhatikan juga bahwa disitu terdapat port 5000 dari _container_ dengan host 5000 (menggunakan perintah -p 5000: 5000) agar dapat diakses dari host. Dan juga memberikan nama (--name = linkextractor) ke _container_ untuk lebih mudah melihat log atau menghapus _container_. Serta melihat list _image container_ yang baru dibuat tersebut.
+    Perhatikan juga bahwa disitu terdapat port 5000 dari _container_ dengan host 5000 (menggunakan perintah -p 5000: 5000) agar dapat diakses dari host. Dan juga memberikan nama (--name = linkextractor) ke _container_ untuk lebih mudah melihat log atau menghapus _container_. Serta melihat list _image container_ yang baru dibuat tersebut.
 
     ![](img/gambar-22.jpg)    
 
