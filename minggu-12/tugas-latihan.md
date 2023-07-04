@@ -148,12 +148,12 @@
 
     hasilnya container pada node 2 sudah tidak berjalan lagi.
 
-13.  Kroscek ulang pada node 1, bahwa container sudah dijadwal ulang dengan melihat bahwa hanya ada 4 coinaer yang sedang berjalan. Sedangkan node 2 tidak, seperti pada gambar berikut,
+13. Kroscek ulang pada node 1, bahwa container sudah dijadwal ulang dengan melihat bahwa hanya ada 4 coinaer yang sedang berjalan. Sedangkan node 2 tidak, seperti pada gambar berikut
 
     `docker service ps sleep-app`
-
+    
     ![](img/gambar-29.jpg)
-
+    
     ![](img/gambar-30.jpg)
 
 14. Menghapus layanan service pada node 1 dengan menggunakan perintah seperti gambar berikut,
