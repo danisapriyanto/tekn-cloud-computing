@@ -96,4 +96,16 @@
 
     ![](img/gambar-18.jpg)
 
+19. Membuat _environment variabel_ dan disimpan pada _node port_ dan melakukan cek curl apakah app berjalan didalamnya.
+
+    `echo NODE_PORT=$NODE_PORT`
+    
+    `curl $(minikube ip):$NODE_PORT`
+
+    ![](img/gambar-19.jpg)
+
+20. Melihat label keseluruhan dari hasil deploy. `kubect describe deployment`
+
+    ![](img/gambar-20.jpg)
+
 Terima kasih
